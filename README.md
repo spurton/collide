@@ -80,14 +80,6 @@ animation.easing(easing); //setter, string|function(t,duration)|dynamicsConfigur
 
 See test.html.
 
-```js
-var animation = collide.animation({
-  duration: 1000,
-  easing: 'ease-in-out'
-})
-  .on('step', function(v) {
-    //Have the element spring over 400px
-    myElement.css('webkitTransform', 'translateX(' + (v*400) + 'px)');
-  })
-  .start();
-```
+[CodePen full page example](http://codepen.io/spurton/full/icmtA)
+
+[CodePen editable example](http://codepen.io/spurton/pen/icmtA)
